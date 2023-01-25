@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.right{
+   
+    background-image: url('../../public/images/documents.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* backgrou */
+    /* background-size: 800px; */
+    background-position: 50% -25%;
+    /* transform: rotate(0); */
+    /* transition: all 0.5s; */
+  }
+
+  .left, .right{
+    height: 100vh;
+  }
